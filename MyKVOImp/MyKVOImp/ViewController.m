@@ -20,8 +20,9 @@
     Person *p = [[Person alloc] init];
     p.name = @"zhangsan";
     
-    
+    // isa Person
     [p addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
+    // isa NSKVONotifying_Person
     self.p = p;
 }
 
