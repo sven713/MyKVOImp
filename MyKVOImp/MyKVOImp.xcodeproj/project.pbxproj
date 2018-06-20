@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02BC88B20D9EA32005AD035 /* NSObject+SVKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */; };
 		A0D6504920D8BC9C004454A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6504820D8BC9C004454A1 /* AppDelegate.m */; };
 		A0D6504C20D8BC9C004454A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6504B20D8BC9C004454A1 /* ViewController.m */; };
 		A0D6504F20D8BC9C004454A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D6504D20D8BC9C004454A1 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A02BC88920D9EA32005AD035 /* NSObject+SVKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SVKVO.h"; sourceTree = "<group>"; };
+		A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SVKVO.m"; sourceTree = "<group>"; };
 		A0D6504420D8BC9C004454A1 /* MyKVOImp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyKVOImp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D6504720D8BC9C004454A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0D6504820D8BC9C004454A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				A0D6504820D8BC9C004454A1 /* AppDelegate.m */,
 				A0D6504A20D8BC9C004454A1 /* ViewController.h */,
 				A0D6504B20D8BC9C004454A1 /* ViewController.m */,
+				A02BC88920D9EA32005AD035 /* NSObject+SVKVO.h */,
+				A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */,
 				A0D6507920D8BEE2004454A1 /* Person.h */,
 				A0D6507A20D8BEE2004454A1 /* Person.m */,
 				A0D6504D20D8BC9C004454A1 /* Main.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				A0D6504C20D8BC9C004454A1 /* ViewController.m in Sources */,
 				A0D6505720D8BC9C004454A1 /* main.m in Sources */,
+				A02BC88B20D9EA32005AD035 /* NSObject+SVKVO.m in Sources */,
 				A0D6507B20D8BEE2004454A1 /* Person.m in Sources */,
 				A0D6504920D8BC9C004454A1 /* AppDelegate.m in Sources */,
 			);
@@ -438,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = MyKVOImp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songximing.MyKVOImp;
@@ -452,6 +459,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6TM5WT3Y8T;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = MyKVOImp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = songximing.MyKVOImp;

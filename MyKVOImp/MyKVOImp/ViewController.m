@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Person.h"
+#import "NSObject+SVKVO.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) Person *p;
@@ -18,11 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     Person *p = [[Person alloc] init];
-    p.name = @"zhangsan";
+//    p.name = @"zhangsan";
     
     // isa Person
-    [p addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
+//    [p addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionOld | NSKeyValueObservingOptionNew context:nil];
     // isa NSKVONotifying_Person
+    
+    [p SV_addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew context:@"哈哈哈"];
+    
     self.p = p;
 }
 
@@ -31,7 +35,10 @@
 }
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    self.p.name = @"lisi";
+//    self.p.name = @"lisi";
+    self.p.age = 8;
+    
+    NSLog(@"修改成功了么:%zd",self.p.age);
 }
 
 
