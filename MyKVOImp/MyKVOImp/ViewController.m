@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Person.h"
 #import "NSObject+SVKVO.h"
+#import "Person+Eat.h"
 
 @interface ViewController ()
 @property (nonatomic, strong) Person *p;
@@ -39,6 +40,8 @@
     self.p.age = 8;
     
     NSLog(@"修改成功了么:%zd",self.p.age);
+    
+    [self.p eatFood:@"排骨"];
 }
 
 

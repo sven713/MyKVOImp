@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A02BC88B20D9EA32005AD035 /* NSObject+SVKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */; };
+		A0D5A89D20DCF25A005DC561 /* Person+Eat.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D5A89C20DCF25A005DC561 /* Person+Eat.m */; };
 		A0D6504920D8BC9C004454A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6504820D8BC9C004454A1 /* AppDelegate.m */; };
 		A0D6504C20D8BC9C004454A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D6504B20D8BC9C004454A1 /* ViewController.m */; };
 		A0D6504F20D8BC9C004454A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D6504D20D8BC9C004454A1 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		A02BC88920D9EA32005AD035 /* NSObject+SVKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SVKVO.h"; sourceTree = "<group>"; };
 		A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SVKVO.m"; sourceTree = "<group>"; };
+		A0D5A89B20DCF25A005DC561 /* Person+Eat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Person+Eat.h"; sourceTree = "<group>"; };
+		A0D5A89C20DCF25A005DC561 /* Person+Eat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Person+Eat.m"; sourceTree = "<group>"; };
 		A0D6504420D8BC9C004454A1 /* MyKVOImp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyKVOImp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D6504720D8BC9C004454A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0D6504820D8BC9C004454A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				A02BC88A20D9EA32005AD035 /* NSObject+SVKVO.m */,
 				A0D6507920D8BEE2004454A1 /* Person.h */,
 				A0D6507A20D8BEE2004454A1 /* Person.m */,
+				A0D5A89B20DCF25A005DC561 /* Person+Eat.h */,
+				A0D5A89C20DCF25A005DC561 /* Person+Eat.m */,
 				A0D6504D20D8BC9C004454A1 /* Main.storyboard */,
 				A0D6505020D8BC9C004454A1 /* Assets.xcassets */,
 				A0D6505220D8BC9C004454A1 /* LaunchScreen.storyboard */,
@@ -280,6 +285,7 @@
 				A02BC88B20D9EA32005AD035 /* NSObject+SVKVO.m in Sources */,
 				A0D6507B20D8BEE2004454A1 /* Person.m in Sources */,
 				A0D6504920D8BC9C004454A1 /* AppDelegate.m in Sources */,
+				A0D5A89D20DCF25A005DC561 /* Person+Eat.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
